@@ -13,6 +13,8 @@
     "postversion": "git push origin develop:main --tags && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^13.0.4",
     "class-transformer": "^0.2.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -32,6 +34,7 @@
     "@babel/plugin-proposal-decorators": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.6",
     "@types/express": "^4.17.7",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
